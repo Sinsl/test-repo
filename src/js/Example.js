@@ -3,7 +3,7 @@ export class Example {
     this.element = element;
   }
 
-  change(text) {
+  change( text ) {
     setTimeout(() => {
       this.element.textContent = text;
     }, 8000);
